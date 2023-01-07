@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap'); 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  letter-spacing: 0.1rem
+}
+html {
+  font-size: 62.5%;
+  font-family: 'League Spartan', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* --------------------------------------------------------------------------nav bar------------------------- */
+.navbar {
+  background-color: #f5fbff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 1.6rem;
+  width: 100%;
+  height: 10vh;
+}
+
+#navlogo{
+  text-decoration: none;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #009dff;
+  /* text-shadow:2px 3px 4px black; */
+  font-weight: bold;
+  /* text-shadow:  0 2px 2px rgb(0 0 0 / 50%);; */
+}
+.medsign {
+  color: red;
+  font-size: 2rem;
+}
+ul {
+  /* width: 40%; */
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-right: 5rem;
+}
+
+.navbar ul li a {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #009dff;
+  scroll-behavior: smooth;
+}
+.navbar ul li a:hover {
+  /* text-shadow:2px 3px 4px black; */
+  /* font-size: 1.6rem; */
+  /* color: #0487d8; */
+}
+
+#loginNavButton{
+  cursor: pointer;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 10rem;
+  /* border: 2px solid #009dff; */
+  /* border-radius: 1.5rem; */
+  /* color: white; */
+  /* background-color: #009dff; */
+  /* font-weight: bolder; */
+  /* text-transform: uppercase; */
+  /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+  background-color: #7ED4F0;
+  color: white;
+}
+#signupnavbutton{
+  cursor: pointer;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 10rem;
+  /* border: 2px solid #009dff; */
+  /* border-radius: 1.5rem; */
+  /* color: white; */
+  /* background-color: #009dff; */
+  /* font-weight: bolder; */
+  /* text-transform: uppercase; */
+  /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+  background-color: #F38F8F;
+  color: white;
+}
+/* -------------------------------------------------------------header-------------------------------------- */
+
+header {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  /* border: 2px solid black; */
+}
+#sortpath {
+  /* margin-left: 5rem; */
+  /* margin-right: 40rem; */
+  /* background-color: red; */
+}
+#yourloaction {
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 30rem;
+  border: 2px solid gray;
+  
+}
+
+#accidentlocation {
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 30rem;
+  border: 2px solid gray;
+  /* border-radius: 1.5rem; */
+  margin: 0 2rem;
+}
+
+#enterbutton {
+  cursor: pointer;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 10rem;
+  border: 2px solid #009dff;
+  /* border-radius: 1.5rem; */
+  color: white;
+  background-color: #009dff;
+  font-weight: bolder;
+  /* text-transform: uppercase; */
+  box-shadow:0 2px 4px rgb(0 0 0 / 50%);
+}
+
+#search {
+  cursor: pointer;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 20rem;
+  background-color: #009dff;
+  border: 2px solid #009dff;
+  /* border-radius: 1.5rem; */
+  color: white;
+  box-shadow:0 2px 4px rgb(0 0 0 / 50%);
+  /* text-transform: uppercase; */
+
+  /* font-weight: bolder; */
+}
+
+/* -------------------------------------------------------main-------------------------------------------- */
+
+#herosection {
+  background-color: #f8f9fa;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  /* background: url(/images/ambulance-emergency-car-driving-on-the-road-in-the-city-first-aid-car-illustration-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+  /* align-items: center; */
+  /* gap: 40rem; */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 13rem;
+  margin-top: 20rem;
+  margin-left: 14rem;
+}
+
+#heading {
+  font-size: 8rem;
+  color: #009dff;
+  margin-bottom: 2rem;
+}
+.medsign2 {
+  color: red;
+}
+
+#tagline {
+  font-size: 2rem;
+}
+
+#mainsearch {
+  margin-top: 4rem;
+  cursor: pointer;
+  padding: 1.5rem;
+  width: 20rem;
+  background-color: #009dff;
+  border: 2px solid #009dff;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 2rem;
+  /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+
+  /* font-weight: bolder; */
+}
+
+.right {
+  margin-top: 15rem;
+  margin-right: 10rem;
+}
+
+/* -------------------------------------------about part--------------------------------------------------------------- */
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutTitle {
+  padding: 3rem;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #009dff;
+  background-color: #f5fbff;
+  width: 100%;
+  text-align: center;
+}
+.discription {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discription p {
+  margin: 0 10rem;
+  font-size: 1.9rem;
+  width: 50rem;
+  margin-top: 4rem;
+  /* border: 2px solid black; */
+  text-align:justify;
+
+  /* word-spacing: 0.1rem; */
+}
+
+.discription img {
+  width: 50rem;
+}
+
+/* ---------------------------footer------------------------------------------ */
+
+
+.footer{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  /* padding: 2rem 0rem; */
+  background-color: #f5fbff;
+}
+
+.columns{
+  display: flex;
+  justify-content:center ;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.footerlogo img{
+  width: 10rem;
+}
+.footheading{
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.title{
+  color: black;
+  font-size: 1.5rem ;
+  font-weight: bold;
+  
+}
+.detail{
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #303030;
+}
+
+.copyright{
+  padding: 2rem;
+  background-color: #f5fbff;
+  color: #525252;
+  text-align: center;
+  font-size: 2rem;
+}

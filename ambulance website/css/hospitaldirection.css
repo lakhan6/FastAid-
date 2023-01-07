@@ -1,0 +1,25 @@
+.mapdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    /* background-color: #f5fbff; */
+}
+#hospitalimg img{
+    width: 45vw;
+    height:80vh;
+    /* border: 2px solid black; */
+    /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+}
+
+#map{
+
+    /* border: 2px solid black; */
+    /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+}
+#map iframe{
+    width: 45vw;
+    height: 80vh;
+
+
+}

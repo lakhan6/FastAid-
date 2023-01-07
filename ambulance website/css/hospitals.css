@@ -1,0 +1,96 @@
+#hospitalHeading{
+    width: 100%;
+    font-size: 5rem;
+    font-weight: bold;
+    /* margin-bottom:2rem; */
+  
+    text-align: center;
+    color: #009dff;
+    padding: 2rem;
+    background-color:white;
+}
+
+#hospitalpart{
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #009dff; */
+}
+
+.hospitals{
+    /* border: 2px solid black; */
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    /* border-radius: 1.5rem; */
+    /* background-color: rgb(243, 242, 242); */
+
+}
+
+.hospital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    /* border: 2px solid black; */
+    border-radius: 1.5rem;
+    /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+}
+
+.hospital img{
+    /* border: 2px solid black; */
+   
+    border-top-left-radius: 1.5rem; 
+     border-top-right-radius: 1.5rem; 
+
+    width: 40rem;
+    height: 30rem;
+}
+
+#namepart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    background-color: #f5fbff;
+    flex-direction: column;
+    /* color: white; */
+    width: 100%;
+    /* border: 2px solid black; */
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    /* color: #009dff; */
+}
+
+.name{
+
+    background-color: #f8f9fa;
+    color: #009dff;
+    width: 100%;
+    padding: 1rem;
+}
+
+.getdirectionbtn{
+    margin-top: 2rem;
+    cursor: pointer;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  width: 20rem;
+  border: 0;
+  /* border: 2px solid #f5fbff; */
+  /* border-radius: 1.5rem; */
+  color: white;
+  background-color: #009dff;
+  /* font-weight: bolder; */
+  text-transform: uppercase;
+  box-shadow:0 2px 4px rgb(0 0 0 / 50%);
+}
